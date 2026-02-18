@@ -22,7 +22,4 @@ Create a `.env` file in the project root (or set environment variables) with the
 
 If you're running a local Vein backend or service, add the base URL for the client to use (Vite requires `VITE_` prefix for exposed env vars in the browser):
 
-```
-VITE_VEIN_BASE_URL=http://localhost:3030
-VEIN_BASE_URL=http://localhost:3030    # optional fallback for non-Vite tooling
-```
+
